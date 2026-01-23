@@ -11,3 +11,4 @@ terraform.rc
 tfplan
 tfplan.*
 prod
+scripts/
