@@ -1,0 +1,16 @@
+aws_region = "us-east-1"
+
+# VPC Configuration
+vpc_id     = "vpc-xxxxxxxxxxxxxxxxx"
+subnet_ids = ["subnet-xxxxxxxxxxxxxxxxx", "subnet-yyyyyyyyyyyyyyyyy"]
+
+# Network Access
+allowed_cidr_blocks = ["0.0.0.0/0"]
+
+# Database Configuration
+db_name                = "devdb"
+db_instance_identifier = "dev-postgresql-instance"
+
+# Database Credentials (use environment variables or secrets manager in production)
+master_username = "<CHANGE_ME_RDS_USER>"
+master_password = "<CHANGE_ME_RDS_PASSWORD>"
