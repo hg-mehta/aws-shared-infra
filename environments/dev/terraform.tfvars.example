@@ -12,5 +12,5 @@ db_name                = "devdb"
 db_instance_identifier = "dev-postgresql-instance"
 
 # Database Credentials (use environment variables or secrets manager in production)
-master_username = "admin"
-master_password = "ChangeMe123!"
+master_username = "<CHANGE_ME_RDS_USER>"
+master_password = "<CHANGE_ME_RDS_PASSWORD>"
