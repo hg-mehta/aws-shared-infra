@@ -10,3 +10,4 @@ terraform.rc
 *.key
 tfplan
 tfplan.*
+prod
