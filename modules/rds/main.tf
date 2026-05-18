@@ -58,6 +58,8 @@ resource "aws_db_instance" "this" {
   parameter_group_name = var.parameter_group_name
   deletion_protection  = var.deletion_protection
 
+  engine_lifecycle_support = "open-source-rds-extended-support-disabled"
+
   tags = merge(
     var.tags,
     {

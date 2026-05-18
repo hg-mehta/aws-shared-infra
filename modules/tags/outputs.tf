@@ -1,4 +1,4 @@
-output "tags" {
+output "shared_infra_tags" {
   description = "Standardized tags for resources"
   value = merge(
     {

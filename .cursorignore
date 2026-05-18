@@ -1,0 +1,14 @@
+*.tfvars
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfvars.backup
+.terraformrc
+terraform.rc
+*.pem
+*.key
+tfplan
+tfplan.*
+prod

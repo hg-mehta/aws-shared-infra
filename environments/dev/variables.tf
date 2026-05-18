@@ -49,3 +49,18 @@ variable "master_password" {
   type        = string
   sensitive   = true
 }
+
+variable "public_hosted_zone_name" {
+  description = "Hosted zone name (e.g. example.com). Do not include a trailing dot or subdomain."
+  type        = string
+}
+
+variable "api_subdomain" {
+  description = "API subdomain (e.g. api). Do not include a trailing dot or full domain."
+  type        = string
+}
+
+variable "enable_alb" {
+  description = "Enable ALB"
+  type        = bool
+}
